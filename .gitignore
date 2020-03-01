@@ -1,0 +1,9 @@
+.project
+.tern-project
+/reports/
+/node_modules/
+.vscode/
+data/settings.json
+package-lock.json
+.DS_Store
+../.DS_Store
