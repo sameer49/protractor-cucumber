@@ -65,8 +65,8 @@ capabilities: {
 cucumberOpts: {
 	.
 	chromeOptions: {
-			args: ["--disable-extensions", "--no-sandbox", "--headless", "--disable-dev-shm-usage","--window-size=1600,1000", "--disable-web-security", "--allow-running-insecure-content", "--ignore-certificate-errors", "--disable-infobars"]
-			// args : [ "--disable-extensions", "--no-sandbox", "--disable-gpu", "--window-size=1600,1000", "--disable-web-security", "--allow-running-insecure-content", "--ignore-certificate-errors", "--disable-infobars" ]
+			//args: ["--disable-extensions", "--no-sandbox", "--headless", "--disable-dev-shm-usage","--window-size=1600,1000", "--disable-web-security", "--allow-running-insecure-content", "--ignore-certificate-errors", "--disable-infobars"]
+			 args : [ "--disable-extensions", "--no-sandbox", "--disable-gpu", "--window-size=1600,1000", "--disable-web-security", "--allow-running-insecure-content", "--ignore-certificate-errors", "--disable-infobars" ]
 	},
 }
 ```
@@ -110,3 +110,6 @@ After docker execution html report can be accessed from below location
 	/tmp/report/index.html
 
 Also all sorts of logs can be accessed from same location
+
+
+
